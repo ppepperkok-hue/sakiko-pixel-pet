@@ -1,0 +1,120 @@
+{
+  "atlas_sha256": "d0f6201028d8db6d62d26abd9b405f611b91d19f19a485ca7f7d2b84407f86bb",
+  "structural_validation": {
+    "passed": true,
+    "width": 1536,
+    "height": 2288,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "required_frames": 73,
+    "errors": []
+  },
+  "quality_gate": {
+    "passed": true,
+    "jump": {
+      "idle_baseline": 201,
+      "jump_baselines": [
+        202,
+        191,
+        162,
+        192,
+        202
+      ],
+      "airborne_lift_pixels": 40,
+      "landing_delta_pixels": 1
+    },
+    "look_registration": {
+      "neutral_center_x": 96.0,
+      "look_centers_x": [
+        95.0,
+        94.0,
+        92.5,
+        90.0,
+        91.5,
+        90.5,
+        91.0,
+        91.5,
+        95.5,
+        95.5,
+        96.5,
+        96.0,
+        96.0,
+        96.0,
+        97.5,
+        95.5
+      ],
+      "look_widths": [
+        78,
+        76,
+        75,
+        74,
+        75,
+        75,
+        76,
+        75,
+        81,
+        77,
+        77,
+        76,
+        74,
+        76,
+        79,
+        77
+      ],
+      "maximum_center_drift_pixels": 6.0,
+      "maximum_width_ratio": 1.0945945945945945
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 157.5 accepted with a reviewed warning",
+      "090->112.5 diff is a local outlier (747 pixels vs neighbor average 483)",
+      "157.5->180 diff is a local outlier (1125 pixels vs neighbor average 544)"
+    ]
+  },
+  "blind_direction_review": {
+    "passed": true,
+    "reviewers": 3,
+    "pairs": 14,
+    "errors": [],
+    "warnings": [],
+    "unconfirmed": []
+  },
+  "pets_preflight": {
+    "valid": true,
+    "file_size_bytes": 2007593,
+    "mime_type": "image/png",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": []
+  },
+  "pet_creation_verified": true,
+  "mp4_decode_verified": true,
+  "scope": "Current encoded atlas and Pets creation; client-wide runtime compatibility is not claimed."
+}
