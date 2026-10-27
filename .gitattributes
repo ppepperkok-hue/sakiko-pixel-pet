@@ -1,4 +1,7 @@
 * text=auto
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+/checksums.sha256 text eol=lf
 *.md text eol=lf
 *.json text eol=lf
 *.png binary
